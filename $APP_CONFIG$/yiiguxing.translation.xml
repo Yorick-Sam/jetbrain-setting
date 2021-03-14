@@ -1,0 +1,82 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogCollapseDictViewer" value="false" />
+    <option name="newTranslationDialogWidth" value="474" />
+    <option name="newTranslationDialogX" value="2408" />
+    <option name="newTranslationDialogY" value="206" />
+    <histories>
+      <item value="可用金额" />
+      <item value="可用" />
+      <item value="校验重复回调&#10;" />
+      <item value="校验重复回调" />
+      <item value="校验重复" />
+      <item value="校验" />
+      <item value="jiao" />
+      <item value="执行退款" />
+      <item value="执行" />
+      <item value="应该支付" />
+      <item value="应该" />
+      <item value="应付" />
+      <item value="应收" />
+      <item value="应收交易" />
+      <item value="余额扣费消息" />
+      <item value="扣费消息" />
+      <item value="约扣费消息" />
+      <item value="扣费" />
+      <item value="vvic" />
+      <item value="Determines if the class or interface represented by this {@code Class} object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified {@code Class} parameter. It returns {@code true} if so; otherwise it returns {@code false}. If this {@code Class} object represents a primitive type, this method returns {@code true} if the specified {@code Class} parameter is exactly this {@code Class} object; otherwise it returns {@code false}. &lt;p&gt; Specifically, this method tests whether the type represented by the specified {@code Class} parameter can be converted to the type represented by this {@code Class} object via an identity conversion or via a widening reference conversion. See &lt;em&gt;The Java Language Specification&lt;em&gt;, sections 5.1.1 and 5.1.4 , for details. @param cls the {@code Class} object to be checked @return the {@code boolean} value indicating whether objects of the type {@code cls} can be assigned to objects of this class @exception NullPointerException if the specified Class parameter is null. @since JDK1.1" />
+      <item value="is Assignable From" />
+      <item value="参数适配" />
+      <item value="参数" />
+      <item value="Implements interruptible condition wait. &lt;ol&gt; &lt;li&gt; If current thread is interrupted, throw InterruptedException. &lt;li&gt; Save lock state returned by {@link getState}. &lt;li&gt; Invoke {@link release} with saved state as argument, throwing IllegalMonitorStateException if it fails. &lt;li&gt; Block until signalled or interrupted. &lt;li&gt; Reacquire by invoking specialized version of {@link acquire} with saved state as argument. &lt;li&gt; If interrupted while blocked in step 4, throw InterruptedException. &lt;ol&gt;" />
+      <item value="有效的" />
+      <item value="验证码支付" />
+      <item value="验证码" />
+      <item value="a" />
+      <item value="distinguish" />
+      <item value="scene" />
+      <item value="Scene" />
+      <item value="场景" />
+      <item value="商户" />
+      <item value="monetize" />
+      <item value="montize" />
+      <item value="monitize" />
+      <item value="moni" />
+      <item value="商业" />
+      <item value="商业化" />
+      <item value="匹配器" />
+      <item value="选择器" />
+      <item value="ENTITY SHOP APP" />
+      <item value="终端" />
+      <item value="品牌" />
+      <item value="平白" />
+      <item value="描述" />
+      <item value="支付能力" />
+      <item value="支付" />
+      <item value="支付品牌" />
+      <item value="支付渠道" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="374" />
+        <entry key="ENGLISH" value="375" />
+        <entry key="DANISH" value="1" />
+        <entry key="GERMAN" value="2" />
+        <entry key="FRENCH" value="1" />
+        <entry key="CATALAN" value="1" />
+        <entry key="CORSICAN" value="1" />
+        <entry key="ROMANIAN" value="1" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="SWEDISH" value="4" />
+        <entry key="SPANISH" value="1" />
+        <entry key="ITALIAN" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1615621406416" />
+  </component>
+  <component name="Settings">
+    <option name="translateDocumentation" value="true" />
+  </component>
+</application>

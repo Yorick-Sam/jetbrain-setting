@@ -1,0 +1,26 @@
+<templateSet group="MyGroup">
+  <template name="*" value="** &#10; * Description：&#10; * $params$$return$&#10; * @author $user$ &#10; * @since $date$ $time$&#10; */" shortcut="TAB" description="my function comment" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="groovyScript(&quot;def result='';def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList();if(params.size() == 0) {return '';};for(i = 0; i &lt; params.size(); i++) {result+= '\\n ' +'* @param ' + params[i];}; return result;&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="return" expression="groovyScript(&quot;def result=\&quot;${_1}\&quot;;if(result.lastIndexOf('&lt;')&gt;0){result=result.substring(0,result.lastIndexOf('&lt;'));};if(result != 'void') { return '\\n * @return {@link ' + result +'}'}&quot;, methodReturnType())" defaultValue="" alwaysStopAt="false" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="time" expression="time(&quot;HH:mm:ss&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="/c" value="/**&#10; * Description：&#10; *&#10; * @author $user$&#10; * @version $version$&#10; * @since $date$ $time$&#10; */" description="my class comment" toReformat="false" toShortenFQNames="true">
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="version" expression="concat(&quot;1.0.0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time(&quot;HH:mm:ss&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="/f" value="/**&#10; * Description：&#10; */" description="my flied comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

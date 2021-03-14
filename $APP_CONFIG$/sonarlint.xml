@@ -1,0 +1,24 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="autoTrigger" value="false" />
+    <option name="fileExclusions">
+      <list>
+        <option value="**/*.js" />
+        <option value="**/*.jsp" />
+      </list>
+    </option>
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://192.168.1.147:9988" />
+          <token>dfcedf9fdf93df93df98df93df9edf9edf9ddf9fdfcedf9cdf9ddf92df9adf93df9cdfcfdf92dfc9dfcbdf9cdf93dfc9df99df98df92df9edf9bdfc9dfcfdf98df9adfcfdfcfdfc8df93df9fdf99dfc9</token>
+          <option name="name" value="sonar_147" />
+          <organizationKey>default-organization</organizationKey>
+        </SonarQubeServer>
+      </list>
+    </option>
+    <rules>
+      <Rule active="false" key="java:S1602" />
+    </rules>
+  </component>
+</application>

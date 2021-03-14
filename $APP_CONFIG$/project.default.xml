@@ -1,0 +1,157 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="DefaultGradleProjectSettings">
+        <option name="isMigrated" value="true" />
+      </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="GradleLocalSettings">
+        <option name="projectSyncType">
+          <map>
+            <entry key="C:/ProgramDatas/IDEA/IDEA/OpenSource/Spring/spring-framework" value="PREVIEW" />
+            <entry key="C:/ProgramDatas/IDEA/IDEA/OpenSource/codehelper.generator" value="PREVIEW" />
+            <entry key="C:/ProgramDatas/IDEA/IDEA/OpenSource/idea-sql-generator-tool" value="PREVIEW" />
+            <entry key="C:/ProgramDatas/IDEA/IDEA/OpenSource/lombok-intellij-plugin" value="PREVIEW" />
+            <entry key="C:/ProgramDatas/IDEA/IDEA/OpenSource/p3c/idea-plugin" value="PREVIEW" />
+            <entry key="C:/ProgramDatas/IDEA/IDEA/TransactionGroup/SupplyChain/vvic-pms/vvic-pms-app" value="PREVIEW" />
+            <entry key="C:/ProgramDatas/IDEA/IDEA/traffic/mobile-android" value="PREVIEW" />
+          </map>
+        </option>
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false" />
+          <inspection_tool class="UnusedLabel" enabled="false" level="WARNING" enabled_by_default="false" />
+          <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false">
+            <option name="LOCAL_VARIABLE" value="true" />
+            <option name="FIELD" value="true" />
+            <option name="METHOD" value="true" />
+            <option name="CLASS" value="true" />
+            <option name="PARAMETER" value="true" />
+            <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+            <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+            <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+            <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+            <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+          </inspection_tool>
+        </profile>
+        <version value="1.0" />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="localRepository" value="C:\ProgramFiles\IDEA\Maven\Repository" />
+            <option name="mavenHome" value="C:\ProgramFiles\IDEA\Maven\apache-maven-3.5.4" />
+            <option name="userSettingsFile" value="C:\ProgramFiles\IDEA\Maven\apache-maven-3.5.4\conf\settings.xml" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="vmOptionsForImporter" value="-Xmx768m" />
+          </MavenImportingSettings>
+        </option>
+      </component>
+      <component name="MavenRunner">
+        <option name="jreName" value="1.8" />
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+      <component name="PropertiesComponent">
+        <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="project.structure.last.edited" value="SDKs" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.2" />
+        <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="Application" factoryName="Application">
+          <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="JUnit" factoryName="JUnit">
+          <option name="TEST_OBJECT" value="class" />
+          <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+        <configuration default="true" type="TestNG">
+          <option name="TEST_OBJECT" value="CLASS" />
+          <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+          <properties />
+          <listeners />
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="Copyright.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>
